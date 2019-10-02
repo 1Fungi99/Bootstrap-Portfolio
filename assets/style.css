@@ -2,6 +2,8 @@
     background-color: black;
     color: white;
     padding-bottom: 0px;
+    background-image: url(Navimg.png);
+    background-size: auto;
 }
 
 .motto{
@@ -40,6 +42,9 @@ h2{
 }
 .container-port {
     margin-bottom:30px;
+}
+.navbar {
+    opacity: 70%;
 }
 @media (min-width: 576px){
     .jumbotron {

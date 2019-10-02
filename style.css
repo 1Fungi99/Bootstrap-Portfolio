@@ -1,0 +1,48 @@
+.jumbortron {
+    background-color: black;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.motto{
+    font-family: 'Allura';
+    font-size: 40px;
+}
+.tab {
+    padding-right: 30px;
+}
+body{
+    background: url(https://source.unsplash.com/twukN12EN7c/1920x1080) no-repeat center center fixed;
+}
+.container {
+    background-color: white;
+}
+.nav-name {
+    color: white;
+}
+a{
+    color:black;
+}
+.nav-link{
+    color:#222222;
+}
+.name {
+    font-family: "Times New Roman"
+}
+p {
+    font-family: 'Times New Roman', Times, serif
+}
+h2{
+    padding:0px;
+}
+.card-deck {
+    margin-bottom: 30px;
+}
+.container-port {
+    margin-bottom:30px;
+}
+@media (min-width: 576px){
+    .jumbotron {
+        padding-bottom: 10px;
+    }
+}

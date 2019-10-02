@@ -1,9 +1,7 @@
-.jumbortron {
-    background-color: black;
-    color: white;
+.jumbotron {
     padding-bottom: 0px;
-    background-image: url(Navimg.png);
-    background-size: auto;
+    /* background-image: url("assets\img\Jumbotron-img.png");
+    background-size: auto; */
 }
 
 .motto{
@@ -44,10 +42,19 @@ h2{
     margin-bottom:30px;
 }
 .navbar {
-    opacity: 70%;
+    
+}
+img {
+    padding: 5%;
 }
 @media (min-width: 576px){
     .jumbotron {
         padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    p{
+        font-size: 15px;
     }
 }
